@@ -52,7 +52,7 @@ useEffect(() => {
 
 return (
 <div>
-  <div className='flex justify-center pt-6'>
+  <div className='flex justify-center pt-6 pb-14 sm:pb-4'>
       <ScoreTab score={score}/>
   </div>
 

@@ -32,7 +32,7 @@ const Rules = () => {
                   </div>
                   {/*body*/}
                   <div className="relative pt-1 px-6  scale-[0.75]">
-<svg viewBox="0 0 304 270" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 304 270">
 <defs>
 <linearGradient id="a" x1="50%" x2="50%" y2="100%">
 <stop stop-color="#FFF" stop-opacity=".097" offset="0"/>
