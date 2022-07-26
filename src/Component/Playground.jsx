@@ -109,7 +109,7 @@ return (
         <Rules />
       </div>
   </div>
-  <div className={choice === '' ? 'flex justify-center sm:absolute sm:bottom-3 sm:right-3' : 'hidden'}>
+  <div className={choice === '' ? 'flex justify-center items-end sm:absolute sm:bottom-3 sm:right-3 pt-24' : 'hidden'}>
         <Rules />
       </div>
 </div>  
