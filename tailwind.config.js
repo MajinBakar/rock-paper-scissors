@@ -45,9 +45,9 @@ module.exports = {
       
       
       boxShadow: {
-          'shadowscissors' : 'inset 0px 5px 2px #D3D3D3, 0px 6px #CC9900',
-          'shadowpaper' : 'inset 0px 5px 2px #D3D3D3, 0px 6px #2F55FF',
-          'shadowrock' : 'inset 0px 5px 2px #D3D3D3, 0px 6px #BF4057',
+          'shadowscissors' : 'inset 0px 5px 2px #D3D3D3, 0px 10px #CC9900',
+          'shadowpaper' : 'inset 0px 5px 2px #D3D3D3, 0px 10px #2F55FF',
+          'shadowrock' : 'inset 0px 5px 2px #D3D3D3, 0px 10px #BF4057',
           
       },
       backgroundImage: {

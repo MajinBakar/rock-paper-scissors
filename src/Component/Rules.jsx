@@ -5,7 +5,7 @@ const Rules = () => {
     return (
       <div className='flex flex-col'>
         <button
-          className=" text-white border-white border-2 rounded-md text-[0.7rem] px-6 py-1 mr-0 sm:mr-4 ease-linear transition-all duration-150"
+          className=" text-white font-thin border-white border-[1px] rounded-md text-[1rem] px-9 py-[0.35rem] mr-0 md:mr-4 ease-linear transition-all duration-150"
           type="button"
           onClick={() => setShowModal(true)}
         >
@@ -16,22 +16,22 @@ const Rules = () => {
             <div
               className="flex items-center overflow-x-hidden overflow-y-hidden fixed inset-0 z-50 outline-none focus:outline-none"
             >
-              <div className="relative w-screen  xs:w-64 my-6 mx-auto max-w-3xl xs:h-64">
+              <div className="relative w-screen  md:w-96 my-6 mx-auto max-w-3xl md:h-96">
                 {/*content*/}
-                <div className="border-0 h-screen xs:h-64 rounded-lg shadow-lg relative flex flex-col w-full xs:w-64 bg-white outline-none focus:outline-none">
+                <div className="border-0 h-screen md:h-96 rounded-lg shadow-lg relative flex flex-col w-full md:w-96 bg-white outline-none focus:outline-none">
                   {/*header*/}
-                  <div className="flex items-center justify-center xs:justify-between px-5 pt-2 rounded-t">
-                    <h3 className="text-lg font-[700] text-[#1F3756] ">
+                  <div className="flex items-center justify-center md:justify-between px-8 pt-4 rounded-t">
+                    <h3 className="text-2xl font-[700] text-[#1F3756] ">
                       RULES
                     </h3>
-                    <div className='cursor-pointer hidden xs:flex' onClick={() => setShowModal(false)}>
-                    <svg className='w-3 h-3'viewBox="0 0 20 20">
+                    <div className='cursor-pointer hidden md:flex' onClick={() => setShowModal(false)}>
+                    <svg className='w-4 h-4'viewBox="0 0 20 20">
                     <path d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" fill="#3B4262" fill-rule="evenodd" opacity=".25"/>
                     </svg>
                     </div>
                   </div>
                   {/*body*/}
-                  <div className="relative pt-4 px-6  scale-75 lg:scale-100">
+                  <div className="relative pt-4 px-6  scale-[0.85]">
 <svg viewBox="0 0 304 270" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="a" x1="50%" x2="50%" y2="100%">
@@ -82,8 +82,8 @@ const Rules = () => {
 </g>
 </g>
 </svg>
-<div className='cursor-pointer flex sm:hidden justify-center pt-28 scale-125' onClick={() => setShowModal(false)}>
-                    <svg className='w-3 h-3'viewBox="0 0 20 20">
+<div className='cursor-pointer flex md:hidden justify-center pt-28 scale-125' onClick={() => setShowModal(false)}>
+                    <svg className='w-4 h-4'viewBox="0 0 20 20">
                     <path d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" fill="#3B4262" fill-rule="evenodd" opacity=".25"/>
                     </svg>
                     </div>
