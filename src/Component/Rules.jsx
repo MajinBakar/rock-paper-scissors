@@ -18,7 +18,7 @@ const Rules = () => {
             >
               <div className="relative w-screen  md:w-96 my-6 mx-auto max-w-3xl md:h-96">
                 {/*content*/}
-                <div className="border-0 h-screen md:h-96 rounded-lg shadow-lg absolute top-0 my-auto bottom-0 flex flex-col w-full md:w-96 bg-white outline-none focus:outline-none">
+                <div className="border-0 h-screen justify-center md:h-96 rounded-lg shadow-lg absolute top-0 my-auto bottom-0 flex flex-col w-full md:w-96 bg-white outline-none focus:outline-none">
                   {/*header*/}
                   <div className="flex items-center justify-center md:justify-between px-8 pt-12 sm:pt-5 rounded-t">
                     <h3 className="text-2xl font-[700] text-[#1F3756] ">
@@ -31,7 +31,7 @@ const Rules = () => {
                     </div>
                   </div>
                   {/*body*/}
-                  <div className="relative pt-1 px-6  scale-[0.85]">
+                  <div className="relative pt-1 px-6  scale-[0.75]">
 <svg viewBox="0 0 304 270" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="a" x1="50%" x2="50%" y2="100%">
