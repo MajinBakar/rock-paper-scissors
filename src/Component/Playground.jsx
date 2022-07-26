@@ -78,9 +78,9 @@ return (
 <div className='flex flex-col items-center mx-4'>
     <p className='hidden md:flex text-lg lg:text-xl tracking-widest text-white text-center md:mb-5'>THE HOUSE PICKED</p>
     <div className='mt-1'>
-    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}  >{computer === 'scissors' && <Scissors />}</div>
-    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}  >{computer === 'paper' && <Paper />}</div>
-    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}>{computer === 'rock' && <Rock />}</div> 
+    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}  >{choice === 'scissors' && <Scissors />}</div>
+    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}  >{choice === 'paper' && <Paper />}</div>
+    <div className={result === 'YOU WIN' ? "animate-bounce" : result === 'YOU LOSE' ? "animate-[wiggle_1s_ease-in-out_infinite]" : ''}>{choice === 'rock' && <Rock />}</div> 
     </div>
     <p className='flex md:hidden text-lg text-white text-center mt-6'>THE HOUSE PICKED</p>
 
